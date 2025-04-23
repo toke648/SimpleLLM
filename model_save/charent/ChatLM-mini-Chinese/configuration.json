@@ -1,0 +1,8 @@
+{
+    "framework": "pytorch",
+    "task": "text-generation",
+    "pipeline": {
+         "type": "text-generation"
+    }
+  }
+  

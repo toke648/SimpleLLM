@@ -21,3 +21,23 @@ Encoder主要负责将输入转换为计算机能够理解的内容（也就是�
 通过梯度下降等方法降低模型的损失（令模型回复的内容越来越接近训练集的内容）
 
 剩下的我还不太清楚，再研究研究
+
+
+### 介绍及运行
+
+这是一个基于Transerformer架构的一个小型文本生成模型
+你需要先准备好词元训练集并命名为data1.txt、data2.txt
+
+- 安装环境：
+    ```sh
+      pip install -r requirements.txt
+    ```
+
+- 训练词表：打开 [train_tokenizer.ipynbt](train_tokenizer.ipynb) 文件并按顺序运行
+
+- 训练模型：打开 [train_BPE_tokenizer.ipynb](train_BPE_tokenizer.ipynb) 文件并运行
+
+
+
+
+

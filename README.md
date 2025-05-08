@@ -42,22 +42,22 @@ Encoder主要负责将输入转换为计算机能够理解的内容（也就是�
    ```
 
 2. 准备数据：
-   - 准备词元训练集文件：data1.txt、data2.txt
+   - 词元训练集文件：processed_data.txt
    - 确保数据文件放置在项目根目录
 
 3. 训练词表：
-   - 打开并运行 [train_tokenizer.ipynb](train_tokenizer.ipynb) 文件
+   - 打开并运行 [train_BPE_tokenizer.ipynb](train_BPE_tokenizer.ipynb) 文件
    - 按照notebook中的步骤顺序执行
 
 4. 训练模型：
-   - 打开并运行 [train_BPE_tokenizer.ipynb](train_BPE_tokenizer.ipynb) 文件
+   - 打开并运行 [BPE_Transformer.ipynb](BPE_Transformer.ipynb) 文件
    - 按照notebook中的步骤执行训练流程
 
 ## 项目结构
 - `train_tokenizer.ipynb`: 词表训练脚本
-- `train_BPE_tokenizer.ipynb`: 模型训练主脚本
+- `BPE_Transformer.ipynb`: 模型训练主脚本
 - `requirements.txt`: 项目依赖文件
-- `data1.txt`, `data2.txt`: 训练数据文件
+- `processed_data.txt`: 训练数据文件
 
 ## 注意事项
 - 确保安装了所有必需的依赖包
